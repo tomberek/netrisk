@@ -1,0 +1,37 @@
+binary-ghc-args:
+- -O
+- -threaded
+module-template: ! 'module MODULE_NAME where
+
+'
+extensions: {}
+environment: ghc-7.8-stable-14.09
+auto-hidden: []
+cabal-file: project.cabal
+version: 1
+extra-packages: ! 'Hackage: appar 0.1.4
+
+  Hackage: iproute 1.5.0
+
+  Hackage: base-orphans 0.4.0
+
+  Hackage: cereal 0.4.1.1
+
+  Hackage: profunctors 4.4.1
+
+  Hackage: random 1.1
+
+  Hackage: semigroups 0.16.2.2
+
+  Hackage: transformers 0.4.3.0
+
+  Hackage: transformers-compat 0.4.0.4
+
+  Hackage: MonadRandom 0.3.0.1
+
+  Hackage: auto 0.4.3.0
+
+
+'
+ghc-args: []
+excluded-modules: []

@@ -3,3 +3,5 @@ Download `stack` from [here](https://github.com/commercialhaskell/stack/wiki/Dow
 From inside a folder with unzipped contents; `stack setup` should install appropriate GHC and setup the build environment.
 
 `stack install` will build and install the executable to a default location for binaries. Run with `netrisk testdata.txt`
+
+`stack tests` to run tests.
