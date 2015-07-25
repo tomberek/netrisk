@@ -2,10 +2,10 @@ name:                netrisk
 version:             0.1.0.0
 synopsis:            Initial project template from stack
 description:         Please see README.md
-homepage:            http://github.com/name/project
+homepage:            http://github.com/tomberek/netrisk
 license:             BSD3
-author:              Your name here
-maintainer:          your.address@example.com
+author:              Thomas Bereknyei
+maintainer:          tomberek@gmail.com
 -- copyright:           
 category:            Web
 build-type:          Simple
