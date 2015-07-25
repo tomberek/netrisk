@@ -1,5 +1,5 @@
 name:                netrisk
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            Initial project template from stack
 description:         Please see README.md
 homepage:            http://github.com/tomberek/netrisk
@@ -9,7 +9,7 @@ maintainer:          tomberek@gmail.com
 -- copyright:           
 category:            Web
 build-type:          Simple
--- extra-source-files:  
+extra-source-files:  stack.yaml README.md
 cabal-version:       >=1.10
 data-files:          testdata.txt
 
